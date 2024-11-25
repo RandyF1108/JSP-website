@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JSP Brand</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About Us</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="home-section">
+<h1>Welcome to JSP</h1>
+<p>Your partner in innovative solutions and services.</p>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+<h2>About JSP</h2>
+<p>JSP is a cutting-edge brand that provides top-notch services in various industries. We specialize in creating bespoke solutions for businesses to help them grow and thrive in a competitive world.</p>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services-section">
+<h2>Our Services</h2>
+<div class="service">
+<h3>Consulting</h3>
+<p>We offer expert consulting services to help businesses optimize their operations and reach their goals.</p>
+</div>
+<div class="service">
+<h3>Web Development</h3>
+<p>We create responsive and interactive websites tailored to meet your business needs.</p>
+</div>
+<div class="service">
+<h3>Marketing</h3>
+<p>Our marketing services help you build your brand and reach a larger audience through digital marketing strategies.</p>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+<h2>Contact Us</h2>
+<form id="contact-form" action="javascript:void(0);">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
+
+<button type="submit">Send Message</button>
+</form>
+</section>
+
+<footer>
+<p>&copy; 2024 JSP Brand. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
